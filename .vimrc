@@ -17,6 +17,10 @@ call plug#end()
 
 
 " Linters and fixers
+" pip install
+" Example: pip install flake8
+" Add to path:
+" $ export PATH="$HOME/.local/bin:$PATH" 
 let g:ale_linters = {'python': ['flake8']}
 let g:ale_fixers = {'python': ['black']}
 
