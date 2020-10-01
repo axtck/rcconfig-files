@@ -21,7 +21,7 @@ call plug#end()
 " Example => pip install flake8
 " Add location to path (in zshrc):
 " export PATH="$HOME/.local/bin:$PATH"
-" source ~/.zshrc (load new path)
+" $ source ~/.zshrc (load new path)
 let g:ale_linters = {'python': ['flake8']}
 let g:ale_fixers = {'python': ['black']}
 
