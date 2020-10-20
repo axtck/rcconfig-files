@@ -35,14 +35,26 @@ let b:ale_fix_on_save = 1
 " Syntax on
 syntax on
 
-" Colorscheme
-colorscheme molokai 
+" Indentation plugin
+filetype plugin indent on
+
+" Show existing tab with 4 spaces width
+set tabstop=4
+
+" When indenting with '>', use 4 spaces width
+set shiftwidth=4
+
+" On pressing tab, insert 4 spaces
+set expandtab 
 
 " Use jj instead of <esc>
 inoremap jj <esc>
 
 " Line numbers (relative)
 set relativenumber
+
+" Colorscheme
+colorscheme molokai
 
 " Lightline
 set laststatus=2
